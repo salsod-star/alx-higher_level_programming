@@ -2,7 +2,7 @@
 
 
 def element_at(my_list, idx):
-    '''Return an element based on the index given'''
+    """Return an element based on the index given"""
 
     if idx < 0 or idx > len(my_list):
         return None
