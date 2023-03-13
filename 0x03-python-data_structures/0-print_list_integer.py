@@ -5,4 +5,4 @@ def print_list_integer(my_list=[]):
     """Print out a list of integers"""
 
     for val in my_list:
-        print('{}'.format(val))
+        print('{:d}'.format(val))
